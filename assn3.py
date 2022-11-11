@@ -88,5 +88,10 @@ def z_score(x, mu, sigma):
 	"""
   
 	return (x*mu)/(sigma)
+""" Test Below.  
+The way this function is set up, you would have to input a different number for the 
+x variable each time, which seems inconvenient. A way around this would be to use the
+input function, but I don't think we are allowed to do that.  """
 
-print(z_score(28, mean(population1), stdev(population1, mean(population1))))
+print(z_score(greatest(population2), mean(population2), stdev(population2, mean(population2))))
+
